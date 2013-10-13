@@ -1,0 +1,19 @@
+README FILE
+
+%% Note that these were made to work using Australian coins and notes. Other foreign currencies are required
+   to be explored. %%
+
+1. rosie_houghcircles requires the toolbox Kinectmex to capture images. I have placed a sample image here for 
+testing.
+
+2. This coding has yet to be robust as the values of the plate and coins radius has to be altered using the 
+imtool function to manually measure the plate and coins in pixels.
+
+3. The SIFT coding on the lowest part of the script can be uncommented to allow SIFT to work.
+
+4. SIFT coding has to be improved as for now it is only able to detect that there is a note within the plate but
+not able to distinguish what notes are there present.
+
+5. colorcalibrose_hough is required to run to allow the colour differences between the 2 dollar (gold) and 
+   5 cents (gray) as they share the same radius. 
+   
